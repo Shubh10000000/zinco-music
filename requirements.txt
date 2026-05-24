@@ -1,6 +1,6 @@
 discord.py
 python-dotenv
 davey
-yt-dlp
+yt-dlp>=2026.05.10
 PyNaCl
 ffmpeg
