@@ -19,7 +19,10 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 YDL_OPTIONS = {
     "format": "bestaudio/best",
     "noplaylist": True,
-    "quiet": True
+    "quiet": True,
+    "extract_flat": False,
+    "default_search": "ytsearch",
+    "cookiefile": "cookies.txt"
 }
 
 FFMPEG_OPTIONS = {
