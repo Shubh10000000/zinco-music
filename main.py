@@ -17,14 +17,14 @@ intents.voice_states = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 YDL_OPTIONS = {
-    "format": "bestaudio[ext=m4a]/bestaudio/best",
+    "format": "bestaudio/best",
     "noplaylist": True,
     "quiet": True,
-    "default_search": "ytsearch",
     "cookiefile": "cookies.txt",
+    "default_search": "ytsearch",
     "extractor_args": {
         "youtube": {
-            "player_client": ["android", "web"]
+            "player_client": ["web"]
         }
     }
 }
